@@ -16,7 +16,7 @@ function App() {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "https://site--delivery-backend--4w9wbptccl4w.code.run"
+        "https://site--delivery-backend--4w9wbptccl4w.code.run/"
       );
       setData(response.data);
       setIsLoading(false);
